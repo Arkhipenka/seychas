@@ -1,0 +1,130 @@
+html, body{
+	margin: 0px;
+	background: #ccc;
+}
+a{
+	text-decoration: none;
+}
+ul{
+	padding: 0px;
+}
+li{
+	list-style: none;
+}
+header{
+	height: 100vh;
+	width:100%;
+	overflow: hidden;
+}
+.head-box, .slide-box, .nav{
+	display: flex;
+	flex-direction: row;
+}
+.head-box{
+	justify-content: space-between;
+}
+h1{
+	font-family: Arial, sans-serif;
+	font-size: 24px;
+	width: 400px;
+	line-height: 20px;
+	margin: 10px 0px 10px 40px; 
+}
+.partners-head{
+	margin: 10px 50px 10px 50px;
+	font-size: 14px;
+	height: 10%;
+}
+.slide-box{
+	justify-content: center;
+	width: 300%;
+	height: 90%;
+}
+.slide{
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+	width: 100%;
+	height: 100%;
+}
+.slide:nth-child(1){
+	background: url(../img/Seychas++-01.jpg) no-repeat 50% 50%;
+	background-size: 100%;
+}
+.slide:nth-child(2){
+	background: url(../img/Seychas++-02.jpg) no-repeat 50% 50%;
+	background-size: 100%;
+}
+.slide:nth-child(3){
+	background: url(../img/Seychas++-03.jpg) no-repeat 50% 50%;
+	background-size: 100%;
+	color: #000;
+}
+button{
+	margin-bottom: 50px;
+	padding: 15px;
+	border-radius: 30px;
+	border: 2px solid #fff;
+	background: transparent;
+	color: #000;
+	font-weight: bolder;
+	background: rgba(209,114,34,0.5);
+}
+button:hover{
+	color: #fff;
+	background: rgba(209,114,34,0.8);
+}
+.nav{
+	height: 5%;
+}
+.nav-header{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	width: 120%;
+
+}
+.nav-header a{
+	color: #000;
+}
+.organization, .command, .partners, .contacts{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background: #fff;
+	padding-top: 50px;
+	text-align: center;
+}
+.org, .commands, .partner{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	flex-wrap: wrap;
+	padding: 20px 50px;
+	margin: 0px;
+
+}
+.img-org{
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	}
+.org li, .commands li{
+	width: 300px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 20px 30px;
+}
+.partner{
+	align-items: center;
+}
+.partner img{
+	width: 200px;
+	margin: 20px 30px;
+}
+footer{
+	height: 80px;
+	background: #000;
+}
