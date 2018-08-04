@@ -1,3 +1,14 @@
+@font-face{
+	font-family: "MuseoSansCyrl";
+	src: url("../font/MuseoSansCyrl.otf");
+}
+@font-face{
+	font-family: "NotoSerif";
+	src:url("../font/NotoSerif-Italic.ttf"), 
+	url("../font/NotoSerif-Bold.ttf"),
+	url("../font/NotoSerif-BoldItalic.ttf"),
+	url("../font/NotoSerif-Regular.ttf");
+}
 html, body{
 	margin: 0px;
 	background: #ccc;
@@ -30,15 +41,20 @@ h1{
 	line-height: 20px;
 	margin: 10px 0px 10px 40px; 
 }
+h2{
+	font-size: 42px;
+}
 .partners-head{
 	margin: 10px 50px 10px 50px;
 	font-size: 14px;
 	height: 10%;
 }
+
 .slide-box{
 	justify-content: center;
 	width: 300%;
-	height: 90%;
+	height: 100%;
+	
 }
 .slide{
 	display: flex;
@@ -48,44 +64,52 @@ h1{
 	height: 100%;
 }
 .slide:nth-child(1){
-	background: url(../img/Seychas++-01.jpg) no-repeat 50% 50%;
-	background-size: 100%;
+	background:#000000 url(../img/Seychas++-01.jpg) no-repeat 50% 50%;
+	background-size: cover;
+	
 }
 .slide:nth-child(2){
-	background: url(../img/Seychas++-02.jpg) no-repeat 50% 50%;
-	background-size: 100%;
+	background: #000000 url(../img/Seychas++-02.jpg) no-repeat 50% 50%;
+	background-size: 50%;
 }
 .slide:nth-child(3){
 	background: url(../img/Seychas++-03.jpg) no-repeat 50% 50%;
 	background-size: 100%;
 	color: #000;
 }
-button{
+.button{
 	margin-bottom: 50px;
 	padding: 15px;
 	border-radius: 30px;
 	border: 2px solid #fff;
 	background: transparent;
 	color: #000;
+	font-family: "MuseoSansCyrl",sans-serif;
 	font-weight: bolder;
 	background: rgba(209,114,34,0.5);
 }
-button:hover{
+.button:hover{
 	color: #fff;
 	background: rgba(209,114,34,0.8);
 }
 .nav{
 	height: 5%;
+	position: fixed;
+	width: 100%;
 }
 .nav-header{
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
-	width: 120%;
+	width: 100%;
 
 }
+.en-btn, .ru-btn{
+	padding: 10px;
+}
 .nav-header a{
-	color: #000;
+	font-family: "MuseoSansCyrl", sans-serif;
+	color: #fff;
 }
 .organization, .command, .partners, .contacts{
 	display: flex;
@@ -95,6 +119,7 @@ button:hover{
 	background: #fff;
 	padding-top: 50px;
 	text-align: center;
+	font-family: "MuseoSansCyrl",sans-serif;
 }
 .org, .commands, .partner{
 	display: flex;
@@ -105,6 +130,7 @@ button:hover{
 	margin: 0px;
 
 }
+
 .img-org{
 	width: 150px;
 	height: 150px;
@@ -124,6 +150,20 @@ button:hover{
 	width: 200px;
 	margin: 20px 30px;
 }
+.contacts{
+	height: 400px;
+	font-size: 18px;
+}
+.mail{
+	color: #5b84f0;
+	text-decoration: underline;
+}
+.contacts span{
+	font-weight: bolder;
+	color: #000000;
+	text-decoration: none;
+}
+
 footer{
 	height: 80px;
 	background: #000;
