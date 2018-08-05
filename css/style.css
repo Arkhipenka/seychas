@@ -61,6 +61,14 @@ h1{
 	font-weight: bold;
 	align-self: center;
 }
+.name::after{
+	content: "01.09-01.12.2018";
+	position: relative;
+	top: 30px;
+	right: 150px;
+	font-size: 15px;
+
+}
 h2{
 	font-size: 42px;
 }
