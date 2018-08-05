@@ -52,7 +52,10 @@ h1{
 	margin: 10px 0px 10px 40px; 
 }
 .name{
-	font-size: 56px;
+	font-size: 66px;
+	font-family: "beermoney",sans-serif;
+	font-weight: bold;
+	align-self: flex-end;
 }
 h2{
 	font-size: 42px;
