@@ -33,11 +33,11 @@ header{
 }
 .head-box{
 	justify-content: space-between;
-	height: 10%ж
+	height: 15%;
 }
 
 h1{
-	font-family: Arial, sans-serif;
+	font-family: "MuseoSansCyrl",sans-serif;
 	font-size: 24px;
 	width: 400px;
 	line-height: 20px;
@@ -49,7 +49,8 @@ h2{
 .partners-head{
 	margin: 10px 50px 10px 50px;
 	font-size: 14px;
-	
+	font-family: "MuseoSansCyrl",sans-serif;
+	text-align: right;
 }
 
 .slide-box{
@@ -98,7 +99,7 @@ h2{
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	height: 10%;
+	height: 5%;
 
 	width: 100%;
 }
