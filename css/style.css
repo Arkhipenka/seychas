@@ -62,6 +62,7 @@ h2{
 	font-size: 14px;
 	font-family: "MuseoSansCyrl",sans-serif;
 	text-align: right;
+	align-self: flex-end;
 }
 
 .slide-box{
