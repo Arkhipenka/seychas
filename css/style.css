@@ -15,6 +15,10 @@
 	url("../font/beermoney.woff"),
 	url("../font/beermoney.woff2");
 } 
+@font-face{
+	font-family: "AGAalenBold Roman";
+	src:url("../font/agaalenbold_roman.ttf");
+}
 html, body{
 	margin: 0px;
 	background: #ccc;
@@ -86,11 +90,11 @@ h2{
 	
 }
 .slide:nth-child(2){
-	background: #6f6f6f url(../img/Seychas++-02.jpg) no-repeat 50% 50%;
+	background: #6f6f6f url(../img/Seychas++-02.jpg) no-repeat 50% 40%;
 	background-size: 100%;
 }
 .slide:nth-child(3){
-	background: #ffffff url(../img/Seychas++-03.jpg) no-repeat 50% 50%;
+	background: #ffffff url(../img/Seychas++-03.jpg) no-repeat 50% 30%;
 	background-size: 100%;
 	color: #000;
 }
