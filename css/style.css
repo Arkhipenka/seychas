@@ -129,14 +129,14 @@ h2{
 	padding: 10px;
 }
 .nav-header li{
-	margin: 0px 30px;
+	margin: 0px 10px;
 }
 .nav-header li:not(:first-child):before{
 	content: "/";
 	color: #FF4E0D;
 	font-weight: bolder;
 	position: relative;
-	left: -30px;
+	left: -10px;
 	
 }
 .nav-header a{
