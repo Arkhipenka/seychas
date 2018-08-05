@@ -141,7 +141,8 @@ h2{
 .nav-header a{
 		font-family: "MuseoSansCyrl", sans-serif;
 		color: #FF4E0D;
-		font-size: 14px;
+		font-size: 13px;
+		font-weight: bolder;
 		text-transform: uppercase;
 }
 .organization, .command, .partners, .contacts{
