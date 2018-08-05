@@ -55,7 +55,7 @@ h1{
 	font-size: 66px;
 	font-family: "beermoney",sans-serif;
 	font-weight: bold;
-	align-self: flex-end;
+	align-self: center;
 }
 h2{
 	font-size: 42px;
@@ -120,12 +120,24 @@ h2{
 .nav-header{
 	display: flex;
 	flex-direction: row;
-	justify-content: space-around;
+	justify-content: flex-start;
 	width: 100%;
 	margin: 0px;
+	padding-left: 50px;
 }
 .en-btn, .ru-btn{
 	padding: 10px;
+}
+.nav-header li{
+	margin: 0px 30px;
+}
+.nav-header li:not(:first-child):before{
+	content: "/";
+	color: #000;
+	font-weight: bolder;
+	position: relative;
+	left: -30px;
+	
 }
 .nav-header a{
 		font-family: "MuseoSansCyrl", sans-serif;
