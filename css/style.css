@@ -33,6 +33,7 @@ header{
 }
 .head-box{
 	justify-content: space-between;
+	height: 10%ж
 }
 
 h1{
@@ -48,30 +49,30 @@ h2{
 .partners-head{
 	margin: 10px 50px 10px 50px;
 	font-size: 14px;
-	height: 10%;
+	
 }
 
 .slide-box{
 	justify-content: center;
-	width: 300%;
-	height: 100%;
+	width: 100%;
+	height: 80%;
 	
 }
 .slide{
 	display: flex;
 	justify-content: center;
 	align-items: flex-end;
-	width: 100%;
+	width: 33.3%;
 	height: 100%;
 }
 .slide:nth-child(1){
 	background:#000000 url(../img/Seychas++-01.jpg) no-repeat 50% 50%;
-	background-size: cover;
+	background-size: 100%;
 	
 }
 .slide:nth-child(2){
 	background: #000000 url(../img/Seychas++-02.jpg) no-repeat 50% 50%;
-	background-size: 50%;
+	background-size: 100%;
 }
 .slide:nth-child(3){
 	background: url(../img/Seychas++-03.jpg) no-repeat 50% 50%;
@@ -94,24 +95,26 @@ h2{
 	background: rgba(209,114,34,0.8);
 }
 .nav{
-	height: 50px;
-	position: fixed;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 10%;
+
 	width: 100%;
-	background: rgba(45,45,45,0.5);
 }
 .nav-header{
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
 	width: 100%;
-	
+	margin: 0px;
 }
 .en-btn, .ru-btn{
 	padding: 10px;
 }
 .nav-header a{
-	font-family: "MuseoSansCyrl", sans-serif;
-	color: #fff;
+		font-family: "MuseoSansCyrl", sans-serif;
+		color: #000;
 }
 .organization, .command, .partners, .contacts{
 	display: flex;
