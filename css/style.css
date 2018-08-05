@@ -114,7 +114,7 @@ h2{
 	justify-content: center;
 	align-items: center;
 	height: 5%;
-
+	background: #3F3F3F;
 	width: 100%;
 }
 .nav-header{
@@ -133,7 +133,7 @@ h2{
 }
 .nav-header li:not(:first-child):before{
 	content: "/";
-	color: #000;
+	color: #FF4E0D;
 	font-weight: bolder;
 	position: relative;
 	left: -30px;
@@ -141,7 +141,9 @@ h2{
 }
 .nav-header a{
 		font-family: "MuseoSansCyrl", sans-serif;
-		color: #000;
+		color: #FF4E0D;
+		font-size: 14px;
+		text-transform: uppercase;
 }
 .organization, .command, .partners, .contacts{
 	display: flex;
