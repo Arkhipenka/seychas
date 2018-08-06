@@ -115,11 +115,12 @@ h2{
 	color: #000;
 	font-family: "MuseoSansCyrl",sans-serif;
 	font-weight: bolder;
-	background: rgba(209,114,34,0.5);
+	background: rgba(209,114,34,0.7);
+	cursor: pointer;
 }
 .button:hover{
 	color: #fff;
-	background: rgba(209,114,34,0.8);
+	background: rgba(209,114,34,1);
 }
 .nav{
 	display: flex;
@@ -157,7 +158,7 @@ h2{
 		font-weight: bolder;
 		text-transform: uppercase;
 }
-.organization, .command, .partners, .contacts{
+.organization, .command, .partners, .contacts {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -176,7 +177,21 @@ h2{
 	margin: 0px;
 
 }
-
+.about{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: left;
+	font-family: "MuseoSansCyrl",sans-serif;
+	padding: 50px 0px;
+}
+.txt{
+	margin: 15px 50px;
+	width: 500px;
+}
+.general{
+	font-weight: bolder;
+}
 .img-org{
 	width: 150px;
 	height: 150px;
