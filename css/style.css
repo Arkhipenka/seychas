@@ -236,8 +236,24 @@ main section:nth-child(odd){
 	color: #000000;
 	text-decoration: none;
 }
-
+.social{
+	padding: 30px;
+	border-radius: 50%;
+	background: url("../img/media.png") no-repeat 50% 50%;
+	background-size: 100%;
+}
+.link{
+	color: #000;
+	font-weight: bold;
+}
+.link:hover{
+	text-decoration: underline;
+}
 footer{
+	display: flex;
+	align-items: center;
 	height: 80px;
 	background: #000;
+	color: #fff;
+	padding-left: 50px;
 }
