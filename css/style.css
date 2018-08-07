@@ -37,6 +37,9 @@ header{
 	width:100%;
 	overflow: hidden;
 }
+.head-state{
+	height: 100%;
+}
 .head-box, .slide-box, .nav{
 	display: flex;
 	flex-direction: row;
